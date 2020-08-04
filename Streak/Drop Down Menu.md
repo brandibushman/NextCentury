@@ -17,19 +17,22 @@ Below it the current version of the Javascript URL on our current pipline
 '/dashboard'
 }
 ~~~
-I believe if I first establish my variable. The /\(\D*(\d*)\D*\)/ seems superr unecessary
+I believe if I first establish my variable. The /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] seems superr unecessary
 '/dashboard' BUT IT IS NOT I think that is what they were using to isolate the ID numbers?
 
 So I wonder if I tried to isolate that code first if that would work. 
+~~~
+= var propId=/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ; 
 
-~~~
-= var propId=/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1]
-if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
-'https://app.nextcenturymeters.com/p/' + propId + '/dashboard'
+if ($'Property (ID: #)'){
+'https://app.nextcenturymeters.com/p/' + propId +'/dashboard'
 }
-~~~
+~~~~
+The above worked!! WOOHOO!!
 
 So for the multiple Properties We could have multiple URLs?:
+First I will develop what will happen if there were multiple properties entered and spearated by a "/". 
+I do not fully understand the ``` /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ``` but it appears to be SQLL notation based off of the [1]
 ~~~
 = var thing=$'Multiple Properties';
 
