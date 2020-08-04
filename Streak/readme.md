@@ -5,3 +5,7 @@
 - how does it handle multiple tags THERE ARE OVER 11,000 boxes 
 
 [Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
+
+## Questions
+- Does the Java integration support HTML if you call it? 
+- Is there a way to have drop down cells that are based on the previous cell's input?
