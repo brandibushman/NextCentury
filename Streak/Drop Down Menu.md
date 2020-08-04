@@ -17,15 +17,26 @@ Below it the current version of the Javascript URL on our current pipline
 '/dashboard'
 }
 ~~~
-I believe if I first establish my variable
+I believe if I first establish my variable. The /\(\D*(\d*)\D*\)/ seems superr unecessary
+'/dashboard' BUT IT IS NOT I think that is what they were using to isolate the ID numbers?
+
+So I wonder if I tried to isolate that code first if that would work. 
+
+~~~
+= var propId=/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1]
+if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
+'https://app.nextcenturymeters.com/p/' + propId + '/dashboard'
+}
+~~~
+
+So for the multiple Properties We could have multiple URLs?:
 ~~~
 = var thing=$'Multiple Properties';
 
 if (thing = 0) then{
 if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
 'https://app.nextcenturymeters.com/p/' +
-/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] + // the /\(\D*(\d*)\D*\)/ seems superr unecessary
-'/dashboard' BUT IT IS NOT I think that is what they were using to isolate the ID numbers?
+/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] + 
 }
 else{
 
