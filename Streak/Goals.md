@@ -5,5 +5,4 @@
 - how does it handle multiple tags THERE ARE OVER 11,000 boxes 
 
 
-[Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
 
