@@ -13,4 +13,6 @@ return x; //This is essential for it
 ~~~
 
 It is also important to note that the when refering to another cell in a row it is formatted
-  ~~~ $'Time to Close' ~~~
+  ~~~ 
+  $'Time to Close' 
+  ~~~
