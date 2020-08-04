@@ -5,21 +5,5 @@
 - how does it handle multiple tags THERE ARE OVER 11,000 boxes 
 
 
-Java Basics that might be useful 
+[Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
 
-This program just demonstraights basic function definition and recall
-
-~~~
-= var x = myFunction(4, 3);   // Function is called, return value will end up in x
-
-function myFunction(a, b) {
-  return a * b;             // Function returns the product of a and b
-}
-
-return x; //This is essential for it 
-~~~
-
-It is also important to note that the when refering to another cell in a row it is formatted
-  ~~~ 
-  $'Time to Close' 
-  ~~~
