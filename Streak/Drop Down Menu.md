@@ -32,7 +32,22 @@ The above worked!! WOOHOO!!
 
 So for the multiple Properties We could have multiple URLs?:
 First I will develop what will happen if there were multiple properties entered and spearated by a "/". 
-I do not fully understand the ``` /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ``` but it appears to be SQLL notation based off of the [1]
+I do not fully understand the ``` /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ``` but it looks similar to houw I remember SQL notation based off of the ``` [1] ```. 
+
+I AM AN ALL KNOWING WIZARD BECAUSE IT IS [SQL](https://en.wikipedia.org/wiki/Regular_expression#Basic_concepts) and the /D stands for non digits and the /d stands for digits! Oof. . . I was starting to worry I forgot my touch. I think I am close to figuring this out!!!!
+
+
+
+
+
+
+
+
+
+
+
+
+
 ~~~
 = var thing=$'Multiple Properties';
 
