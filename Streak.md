@@ -1,4 +1,5 @@
 ## Java Basics that might be useful 
+
 This program just demonstraights basic function definition and recall
 
 ~~~
@@ -10,3 +11,6 @@ function myFunction(a, b) {
 
 return x; //This is essential for it 
 ~~~
+
+It is also important to note that the when refering to another cell in a row it is formatted
+      $'Time to Close'
