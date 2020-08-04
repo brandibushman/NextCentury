@@ -1,6 +1,6 @@
-Java Basics that might be useful 
+## Java Basics that might be useful 
 
-This program just demonstraights basic function definition and recall
+- This program just demonstraights basic function definition and recall
 
 ~~~
 = var x = myFunction(4, 3);   // Function is called, return value will end up in x
@@ -16,3 +16,10 @@ It is also important to note that the when refering to another cell in a row it 
   ~~~ 
   $'Time to Close' 
   ~~~
+
+- Basic if-then statements 
+~~~
+if (hour < 18) {
+  greeting = "Good day";
+}
+~~~
