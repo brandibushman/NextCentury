@@ -23,8 +23,10 @@ if (hour < 18) {
   greeting = "Good day";
 }
 ~~~
+#Functions
 
 ### Console Log 
-[```console.log()```](https://www.geeksforgeeks.org/javascript-console-log-with-examples/#:~:text=The%20console.,log(A)%3B). 
+
+[console.log()](https://www.geeksforgeeks.org/javascript-console-log-with-examples/#:~:text=The%20console.,log(A)%3B). 
 
 > Console.Log is a function in JavaScript which is used to print any kind of variables defined before in it or to just print any message that needs to be displayed to the user.
