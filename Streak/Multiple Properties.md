@@ -57,11 +57,12 @@ I need to figure out how to make either a regular expression iterative or. . . b
 
 OR WE COULD USE A WHILE LOOP. I am starting to think this might not work because we would need to first create several variables and that it the part I don't know how to do for an infinite set. .
 
-So sounds like 
-~~~
-console.log(($'Property (ID: #)'.match(/\(\D*(\d*)\D*\)/g) || []).length); 
+So sounds like there are code options [to break up strings using Regular Expressions](https://stackoverflow.com/questions/881085/count-the-number-of-occurrences-of-a-character-in-a-string-in-javascript) using [```console.log()```](https://github.com/brandibushman/NextCentury-again/edit/master/Java%20Basics)
 
-console.log(($'Property (ID: #)'.match(new RegExp("str", "g")) || []).length);
+~~~
+console.log(($'Property (ID: #)'.match(/\(\D*(\d*)\D*\)/g) || []).length); // Option 1
+
+console.log(($'Property (ID: #)'.match(new RegExp("str", "g")) || []).length); //Option 2 and it looks better, I just do not understand all of the compenent quite yet.
 ~~~
 
 
