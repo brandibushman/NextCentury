@@ -62,7 +62,7 @@ So sounds like there are code options [to break up strings using Regular Express
 ~~~
 console.log(($'Property (ID: #)'.match(/\(\D*(\d*)\D*\)/g) || []).length); // Option 1
 
-console.log(($'Property (ID: #)'.match(new RegExp("str", "g")) || []).length); //Option 2 and it looks better, I just do not understand all of the compenent quite yet.
+console.log(($'Property (ID: #)'.match(new RegExp("str", "g")) || []).length); //Option 2 looks better, do not understand all compenents yet.
 ~~~
 
 
