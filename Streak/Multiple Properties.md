@@ -36,6 +36,7 @@ if ($'Property (ID: #)'){
 ~~~~
 The above worked!! WOOHOO!! 
 
+###Step 2: Make it iterative
 Next I will develop what will happen if there were multiple properties entered and spearated by a ">".
 
 They are using basic [regular expressions](https://en.wikipedia.org/wiki/Regular_expression#Basic_concepts) and the "/" surrounding the regular expression is just a Javascript thing. <sub>(Reminder for my brain: the /D stands for non digits and the /d stands for digits.)<sub>
