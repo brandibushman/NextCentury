@@ -32,9 +32,9 @@ The above worked!! WOOHOO!!
 
 So for the multiple Properties We could have multiple URLs?:
 First I will develop what will happen if there were multiple properties entered and spearated by a "/". 
-I do not fully understand the ``` /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ``` but it looks similar to houw I remember SQL notation.
+I do not fully understand the ``` /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ``` but it looks similar to how I remember SQL notation.
 
-I AM AN ALL KNOWING WIZARD BECAUSE IT IS [SQL](https://en.wikipedia.org/wiki/Regular_expression#Basic_concepts) and the /D stands for non digits and the /d stands for digits! Oof. . . I was starting to worry I forgot my touch. I think I am close to figuring this out!!!!
+It is [SQL](https://en.wikipedia.org/wiki/Regular_expression#Basic_concepts) the "/" surrounding the SQL are just a Javascript thing. Reminder for my brain: the /D stands for non digits and the /d stands for digits.
 
 So it appears that ```[n] // | n in the set of real numbers``` is a thing in Javascript that asks to return an object. I just don't understand how this regular expression isolates just the numbers in the string so I am getting annoyed. 
 
