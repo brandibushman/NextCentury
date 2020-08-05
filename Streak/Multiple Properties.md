@@ -55,10 +55,20 @@ And a group 1 that is ``` 1234 ````
 
 I need to figure out how to make either a regular expression iterative or. . . basically how to get that to repeat itself. 
 
+OR WE COULD USE A WHILE LOOP. I am starting to think this might not work because we would need to first create several variables and that it the part I don't know how to do for an infinite set. .
+
+So sounds like 
+~~~
+console.log(($'Property (ID: #)'.match(/\(\D*(\d*)\D*\)/g) || []).length); 
+
+console.log(($'Property (ID: #)'.match(new RegExp("str", "g")) || []).length);
+~~~
 
 
 
 
+
+WORDS
 ~~~
 = var thing=$'Multiple Properties';
 
