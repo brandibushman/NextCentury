@@ -6,14 +6,19 @@ Javascript itself does not support a dropdown option so it wants to use HTML, I 
 
 
 # Multiple Properties
-### Goal: to have multiple property URLs. I think that we will be able to sort through this column easier than a premade column. 
-Features
+## Goal: 
+To have multiple property URLs. I think that we will be able to sort through this column easier than a premade column. 
+### Features
 - multiple URLs
 - have the URLs be formatted more like a hyper link. 
+## Plan
+What I am going to try with this is to make a check box to indicate multiple properties or not. If it is selected then I will use a loop and regular expressions to make an iterative process that will create multiple urls. Next I will look for way to innovate and avoid errors based off of user input- a concern is if the process breaks down part way through that it will cause all of the links to no longer exist. Last I will try to formar the cell so that there are hyper links with property names displayed so that it is more user friendly.
 
-What I am going to try with this is to make a check box and then have the URL column know if check box is unchecked then to make the URL as normal. If not then make multiple URLs where the properties are separated by a "/"
+### Step 1: Innovate Current Code
+Below it the current version of the Javascript URL on our current pipline. 
 
-Below it the current version of the Javascript URL on our current pipline
+A limitation of this is that if there were parenthesis in the property name surrounding numbers it will select those instead of the property ID number. We may need to get more specific. like ```\(\D*[Ii][Dd]\D*(\d*)\D*\)``` Which would allow for a lot of input error but would specifically look for "ID". This is something I will incorporate towards the end of this but I wanted to draw attention to that before we begin. 
+
 ~~~
 = if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
 'https://app.nextcenturymeters.com/p/' +
@@ -21,10 +26,7 @@ Below it the current version of the Javascript URL on our current pipline
 '/dashboard'
 }
 ~~~
-I believe if I first establish my variable. The /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] seems superr unecessary
-'/dashboard' BUT IT IS NOT I think that is what they were using to isolate the ID numbers?
-
-So I wonder if I tried to isolate that code first if that would work. 
+I believe if I first establish a variable to be ```/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1]`` then we can create several variables and in the end produce several urls. I hope that this tactic will avoid having a working or not workin scenario. 
 ~~~
 = var propId=/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ; 
 
@@ -33,16 +35,12 @@ if ($'Property (ID: #)'){
 }
 ~~~~
 The above worked!! WOOHOO!! 
-A limitation of the above is that if there were parenthesis in the property name surrounding numbers it will select those. We may need to get more specific. like ```\(\D*[Ii][Dd]\D*(\d*)\D*\)``` Which would allow for a lot of input error but would specifically look for "ID".
-<span style="color:red">This is something that I will look into after I have been able to successfully allow for multiple property entries.</span>
 
-So for the multiple Properties We could have multiple URLs?:
-First I will develop what will happen if there were multiple properties entered and spearated by a "/". 
-I do not fully understand the ``` /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ``` but it looks similar to how I remember SQL notation.
+Next I will develop what will happen if there were multiple properties entered and spearated by a ">".
 
-It is [SQL](https://en.wikipedia.org/wiki/Regular_expression#Basic_concepts) the "/" surrounding the SQL are just a Javascript thing. Reminder for my brain: the /D stands for non digits and the /d stands for digits.
+They are using basic [regular expressions](https://en.wikipedia.org/wiki/Regular_expression#Basic_concepts) and the "/" surrounding the regular expression is just a Javascript thing. <sub>(Reminder for my brain: the /D stands for non digits and the /d stands for digits.)<sub>
 
-So it appears that ```[n] // | n in the set of real numbers``` is a thing in Javascript that asks to return an object. The regular expression creates two groups. So the (Id:1234) is the 0 group and 1234 is the 1 group. 
+So it appears that ```[1]``` is a thing in Javascript that asks to return an object. The regular expression creates two [nested groups](https://regexone.com/lesson/nested_groups). So the (Id:1234) is the 0 group and 1234 is the 1 group. 
 
 I think what I will try to do is create a loop that counts a special character that does not occur property names like "<" and basically count those. So It will look at the string and count the number of "<", ```|{>}|= m-1```, then the loop will go m times. 
 The loop can just be something like 
