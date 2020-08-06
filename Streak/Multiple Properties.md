@@ -80,7 +80,7 @@ var splitString1 = cellName.split(', '); // This splits the string up based on a
 ~~~
 var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length; 
 // there are lngth number of props
-var splitString = cellName.split(',,'); // this makes an array of different props
+var splitString = $'Property (ID: #)'.split(',,'); // this makes an array of different props
 
 if ($'Property (ID: #)' && $'Billing Company (ID: #)'){ 
 var i;
