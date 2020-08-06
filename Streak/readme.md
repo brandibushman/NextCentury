@@ -18,3 +18,6 @@
 ## Current Organization
 - support tags are less organized probably 
 - things change so from communication issue to brown out issue
+
+## Issues 
+- Changing the tags effects the things
