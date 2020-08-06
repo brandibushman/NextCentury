@@ -7,6 +7,7 @@
 - Standardize and go through duplicates: hover over description (?) or Wiki cheat sheet. FLow chart or explanation. "Icom - Internal Communication" so we have hyphenate, "Ecom - Electronic Communication"
 - Alternative to N/A
 - Date Reported
+- More integration between streak and our website
 
 [Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
 
@@ -20,4 +21,5 @@
 - things change so from communication issue to brown out issue
 
 ## Issues 
-- Changing the tags effects the things
+- Changing the tags effects the things. Support type tag would be the easiest. What do the 5 tags mean.
+
