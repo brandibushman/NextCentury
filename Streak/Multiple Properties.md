@@ -85,13 +85,26 @@ var splitString = $'Property (ID: #)'.split(',,'); // this makes an array of dif
 if ($'Property (ID: #)' && $'Billing Company (ID: #)'){ 
 var i;
 for (i = 1; i < lngth+1; i++) {
- console.log('https://app.nextcenturymeters.com/p/' +
+'https://app.nextcenturymeters.com/p/' +
 /\(\D*(\d*)\D*\)/.exec(splitString[i])[1] + 
-'/dashboard');
+'/dashboard';
 }
 }
 
 ~~~
 
 # Current issues 
-- lngth is not a number
+- It will display 
+``` = var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length;
+// there are lngth number of props and this works
+
+var SS = $'Property (ID: #)'.split(',,'); // this is making an array just fine
+
+SS[1];```
+but not 
+``` = var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length;
+// there are lngth number of props and this works
+
+var SS = $'Property (ID: #)'.split(',,'); // this is making an array just fine
+
+SS[2];```so obviously the array hates me
