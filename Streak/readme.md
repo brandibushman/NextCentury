@@ -4,7 +4,7 @@
 - Standardize the phone number and contact information entering system like either it is all at once, or there are "."/"-" separators. 
 - [Multiple Property Link](https://github.com/brandibushman/NextCentury-again/blob/master/Streak/Multiple%20Properties.md)
 - how does it handle multiple tags THERE ARE OVER 11,000 boxes 
-- STandardize and go through duplicates: hover over description (?) or Wiki "Icom - Internal Communication" so we have hyphenate, "Ecom - Electronic Communication"
+- Standardize and go through duplicates: hover over description (?) or Wiki cheat sheet. FLow chart or explanation. "Icom - Internal Communication" so we have hyphenate, "Ecom - Electronic Communication"
 
 [Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
 
