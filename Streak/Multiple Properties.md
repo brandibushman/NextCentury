@@ -84,7 +84,7 @@ var splitString = $'Property (ID: #)'.split(',,'); // this makes an array of dif
 
 if ($'Property (ID: #)' && $'Billing Company (ID: #)'){ 
 var i;
-for (i = 0; i < lngth+1; i++) {
+for (i = 0; i < lngth-1; i++) {
 'https://app.nextcenturymeters.com/p/' +
 /\(\D*(\d*)\D*\)/.exec(splitString[i])[1] + 
 '/dashboard';
