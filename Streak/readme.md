@@ -7,7 +7,7 @@
 - Standardize and go through duplicates: hover over description (?) or Wiki cheat sheet. FLow chart or explanation. "Icom - Internal Communication" so we have hyphenate, "Ecom - Electronic Communication"
 - Alternative to N/A
 - Date Reported
-- More integration between streak and our website
+- More integration between streak and our website. Streak has an API
 
 [Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
 
