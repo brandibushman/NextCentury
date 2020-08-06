@@ -66,7 +66,7 @@ So now I just need to make it so that is a variable.
 - Turn into Variable (now what we want, we want a number) 
 ~~~
 var cellName = "Property 1 (ID:1234),, Property 2 (ID: 2345)";
-var cat = console.log((cellName.match(new RegExp("ID:", "g")) || []).length); // This counts 
+var cat =(cellName.match(new RegExp("ID:", "g")) || []).length; // This counts 
 cat;
 ~~~
 
