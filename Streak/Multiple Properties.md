@@ -78,7 +78,8 @@ var splitString1 = cellName.split(', '); // This splits the string up based on a
 
 ## Trying to combine everything 
 ~~~
-= var lngth = console.log(($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length); // there are lngth number of props
+var lngth = console.log(($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length); 
+// there are lngth number of props
 var splitString = cellName.split(',,'); // this makes an array of different props
 
 if ($'Property (ID: #)' && $'Billing Company (ID: #)'){ 
@@ -91,3 +92,6 @@ for (i = 1; i < lngth+1; i++) {
 }
 
 ~~~
+
+# Current issues 
+- lngth is not a number
