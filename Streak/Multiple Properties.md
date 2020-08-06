@@ -86,7 +86,7 @@ if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
 var i;
 for (i = 1; i < lngth+1; i++) {
  console.log('https://app.nextcenturymeters.com/p/' +
-/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] + 
+/\(\D*(\d*)\D*\)/.exec(splitString[i])[1] + 
 '/dashboard');
 }
 }
