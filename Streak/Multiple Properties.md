@@ -95,16 +95,21 @@ for (i = 1; i < lngth+1; i++) {
 
 # Current issues 
 - It will display 
-``` = var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length;
+~~~
+= var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length;
 // there are lngth number of props and this works
 
 var SS = $'Property (ID: #)'.split(',,'); // this is making an array just fine
 
-SS[1];```
+SS[1];
+~~~
 but not 
-``` = var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length;
+~~~
+= var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length;
 // there are lngth number of props and this works
 
 var SS = $'Property (ID: #)'.split(',,'); // this is making an array just fine
 
-SS[2];```so obviously the array hates me
+SS[2];
+~~~
+so obviously the array hates me
