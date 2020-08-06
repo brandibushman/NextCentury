@@ -63,13 +63,17 @@ So sounds like there are code options [to break up strings using Regular Express
 - count the variables  ```console.log((cellName.match(new RegExp("ID:", "g")) || []).length); ``` will count the number of times ID: is entered. It makes is a little vulnerable if people type "id" or "Id", but that can be addressed later. 
 So now I just need to make it so that is a variable. 
 
-- Turn into Variable (now what we want, we want a number) ```
+- Turn into Variable (now what we want, we want a number) 
+~~~
 var cellName = "Property 1 (ID:1234),, Property 2 (ID: 2345)";
 var cat = console.log((cellName.match(new RegExp("ID:", "g")) || []).length); // This counts 
 cat;
-```
+~~~
 
-- separete string into an array ```var splitString1 = cellName.split(', '); // This splits the string up based on a comma ```
+- separete string into an array 
+```
+var splitString1 = cellName.split(', '); // This splits the string up based on a comma 
+```
 
 
 ## Trying to combine everything 
