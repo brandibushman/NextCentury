@@ -59,26 +59,31 @@ OR WE COULD USE A WHILE LOOP. I am starting to think this might not work because
 
 So sounds like there are code options [to break up strings using Regular Expressions](https://stackoverflow.com/questions/881085/count-the-number-of-occurrences-of-a-character-in-a-string-in-javascript) using [```console.log()```](https://github.com/brandibushman/NextCentury-again/edit/master/Java%20Basics)
 
+## Pieces
+- count the variables  ```console.log((cellName.match(new RegExp("ID:", "g")) || []).length); ``` will count the number of times ID: is entered. It makes is a little vulnerable if people type "id" or "Id", but that can be addressed later. 
+So now I just need to make it so that is a variable. 
+
+- Turn into Variable (now what we want, we want a number) ```
+var cellName = "Property 1 (ID:1234),, Property 2 (ID: 2345)";
+var cat = console.log((cellName.match(new RegExp("ID:", "g")) || []).length); // This counts 
+cat;
+```
+
+- separete string into an array ```var splitString1 = cellName.split(', '); // This splits the string up based on a comma ```
+
+
+## Trying to combine everything 
 ~~~
-console.log(($'Property (ID: #)'.match(/\(\D*(\d*)\D*\)/g) || []).length); // Option 1
+= var lngth = console.log(($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length); // there are lngth number of props
+var splitString = cellName.split(',,'); // this makes an array of different props
 
-console.log(($'Property (ID: #)'.match(new RegExp("str", "g")) || []).length); //Option 2 looks better, don't understand compenents
-~~~
-
-
-
-
-
-WORDS
-~~~
-= var thing=$'Multiple Properties';
-
-if (thing = 0) then{
-if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
-'https://app.nextcenturymeters.com/p/' +
+if ($'Property (ID: #)' && $'Billing Company (ID: #)'){ 
+var i;
+for (i = 1; i < lngth+1; i++) {
+ console.log('https://app.nextcenturymeters.com/p/' +
 /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] + 
+'/dashboard');
 }
-else{
+}
 
-}
 ~~~
