@@ -5,6 +5,7 @@
 - [Multiple Property Link](https://github.com/brandibushman/NextCentury-again/blob/master/Streak/Multiple%20Properties.md)
 - how does it handle multiple tags THERE ARE OVER 11,000 boxes 
 - Standardize and go through duplicates: hover over description (?) or Wiki cheat sheet. FLow chart or explanation. "Icom - Internal Communication" so we have hyphenate, "Ecom - Electronic Communication"
+- Alternative to N/A
 
 [Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
 
