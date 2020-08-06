@@ -70,11 +70,11 @@ var cat =(cellName.match(new RegExp("ID:", "g")) || []).length; // This counts
 cat;
 ~~~
 
-- separete string into an array 
+- separete string into an array and [identifying parts](https://stackoverflow.com/questions/35094916/javascript-adding-new-label-and-data-to-existing-array) in that array 
 ```
 var splitString1 = cellName.split(', '); // This splits the string up based on a comma 
 ```
-
+- [Loops](https://www.w3schools.com/js/js_loop_for.asp)
 
 ## Trying to combine everything 
 ~~~
