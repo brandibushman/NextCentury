@@ -8,6 +8,7 @@
 - Alternative to N/A
 - Date Reported
 - More integration between streak and our website. Streak has an API
+- Adjust Tags
 
 [Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
 
