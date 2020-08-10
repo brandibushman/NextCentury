@@ -8,7 +8,7 @@
 - Date Reported
 - More integration between streak and our website. Streak has an API
 - [Adjust Tags](https://github.com/brandibushman/NextCentury/blob/master/Streak/Tags.md)
--- Alternative to N/A
+  - Alternative to N/A
 
 [Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
 
