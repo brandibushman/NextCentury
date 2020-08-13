@@ -77,39 +77,27 @@ var splitString1 = cellName.split(', '); // This splits the string up based on a
 - [Loops](https://www.w3schools.com/js/js_loop_for.asp)
 
 ## Trying to combine everything 
+Ultimately I did a few things. The first loop is to see if there is information in those cells or not. Then it defines a few key variables then if there is more than one property entered then a loop gets enabled making multiple URLs, otherwise just one gets made. Lastly if the required boxes are not filled in then it displays "No Property Entered". That way it is clear that the N/A boxes have been filled out, just insufficiently. 
 ~~~
-var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length; 
-// there are lngth number of props
+= if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
+
+var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length; // there are lngth number of props
+
 var splitString = $'Property (ID: #)'.split(',,'); // this makes an array of different props
 
-if ($'Property (ID: #)' && $'Billing Company (ID: #)'){ 
 var i;
-for (i = 0; i < lngth-1; i++) {
+var url = "";
+if (lngth >1){
+for (i = 0; i < lngth; i++) {
+url += 'https://app.nextcenturymeters.com/p/' + /\(\D*(\d*)\D*\)/.exec(splitString[i])[1] +'/dashboard  ,  ';
+}
+} else{
 'https://app.nextcenturymeters.com/p/' +
-/\(\D*(\d*)\D*\)/.exec(splitString[i])[1] + 
-'/dashboard';
+/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] +
+'/dashboard'
 }
+} else {
+'No Property Entered'
 }
-
-~~~
-
-# Current issues 
-- It will display 
-~~~
-= var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length;
-// there are lngth number of props and this works
-
-var SS = $'Property (ID: #)'.split(',,'); // this is making an array just fine
-
-SS[1];
-~~~
-but not 
-~~~
-= var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length;
-// there are lngth number of props and this works
-
-var SS = $'Property (ID: #)'.split(',,'); // this is making an array just fine
-
-SS[2];
 ~~~
 so obviously the array hates me
