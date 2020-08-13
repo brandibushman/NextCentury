@@ -1,10 +1,3 @@
-# Drop Down Menu
-
-Trying to first make a dropdown menu in Java and then I will make it more dynamic.'
-
-Javascript itself does not support a dropdown option so it wants to use HTML, I don't know if Streak can use HTML.
-
-
 # Multiple Properties
 ## Goal: 
 To have multiple property URLs. I think that we will be able to sort through this column easier than a premade column. 
