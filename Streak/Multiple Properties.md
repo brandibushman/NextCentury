@@ -14,10 +14,8 @@ To have multiple property URLs. I think that we will be able to sort through thi
 ## Plan
 What I am going to try with this is to make a check box to indicate multiple properties or not. If it is selected then I will use a loop and regular expressions to make an iterative process that will create multiple urls. Next I will look for way to innovate and avoid errors based off of user input- a concern is if the process breaks down part way through that it will cause all of the links to no longer exist. Last I will try to formar the cell so that there are hyper links with property names displayed so that it is more user friendly.
 
-### Step 1: Innovate Current Code
-Below it the current version of the Javascript URL on our current pipline. 
-
-A limitation of this is that if there were parenthesis in the property name surrounding numbers it will select those instead of the property ID number. We may need to get more specific. like ```\(\D*[Ii][Dd]\D*(\d*)\D*\)``` Which would allow for a lot of input error but would specifically look for "ID". This is something I will incorporate towards the end of this but I wanted to draw attention to that before we begin. 
+### Step 1: Observe Current Code
+Below is the current version of the Javascript URL on our current pipline. 
 
 ~~~
 = if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
@@ -26,7 +24,9 @@ A limitation of this is that if there were parenthesis in the property name surr
 '/dashboard'
 }
 ~~~
-I believe if I first establish a variable to be ```/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1]`` then we can create several variables and in the end produce several urls. I hope that this tactic will avoid having a working or not workin scenario. 
+There are a few limitations of this is and I don't know whow much we need to worry about them. ONe weakness is if there were, for some reason, parenthesis with digits in the name of the property, this would pick it up. However, there is room for input error if we have it looking specifically for "ID". This is something I will incorporate towards the end of this but I wanted to draw attention to that before we begin. 
+
+An alternative is to establish a variable to be ```/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1]``` then we can create several variables and in the end produce several urls. I hope that this tactic will avoid having a working or not workin scenario. 
 ~~~
 = var propId=/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] ; 
 
@@ -34,10 +34,10 @@ if ($'Property (ID: #)'){
 'https://app.nextcenturymeters.com/p/' + propId +'/dashboard'
 }
 ~~~~
-The above worked!! WOOHOO!! 
+
 
 ### Step 2: Make it iterative
-Next I will develop what will happen if there were multiple properties entered and spearated by a ">".
+Next I will develop what will happen if there were multiple properties entered and spearated by a ",,".
 
 They are using basic [regular expressions](https://en.wikipedia.org/wiki/Regular_expression#Basic_concepts) and the "/" surrounding the regular expression is just a Javascript thing. <sub>(Reminder for my brain: the /D stands for non digits and the /d stands for digits.)<sub>
 
@@ -76,7 +76,7 @@ var splitString1 = cellName.split(', '); // This splits the string up based on a
 ```
 - [Loops](https://www.w3schools.com/js/js_loop_for.asp)
 
-## Trying to combine everything 
+## Step 3: Trying to combine everything 
 Ultimately I did a few things. The first loop is to see if there is information in those cells or not. Then it defines a few key variables then if there is more than one property entered then a loop gets enabled making multiple URLs, otherwise just one gets made. Lastly if the required boxes are not filled in then it displays "No Property Entered". That way it is clear that the N/A boxes have been filled out, just insufficiently. 
 ~~~
 = if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
