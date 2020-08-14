@@ -74,23 +74,23 @@ Ultimately I did a few things. The first loop is to see if there is information 
 ~~~
 = if ($'Property (ID: #)' && $'Billing Company (ID: #)'){
 
-var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length; // there are lngth number of props
+   var lngth = ($'Property (ID: #)'.match(new RegExp("ID:", "g")) || []).length; // there are lngth number of props
 
-var splitString = $'Property (ID: #)'.split(',,'); // this makes an array of different props
+   var splitString = $'Property (ID: #)'.split(',,'); // this makes an array of different props
 
-var i;
-var url = "";
-if (lngth >1){
-for (i = 0; i < lngth; i++) {
-url += 'https://app.nextcenturymeters.com/p/' + /\(\D*(\d*)\D*\)/.exec(splitString[i])[1] +'/dashboard  ,  ';
-}
-} else{
-'https://app.nextcenturymeters.com/p/' +
-/\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] +
-'/dashboard'
-}
-} else {
-'No Property Entered'
+   var i;
+   var url = "";
+   if (lngth >1){
+      for (i = 0; i < lngth; i++) {
+         url += 'https://app.nextcenturymeters.com/p/' + /\(\D*(\d*)\D*\)/.exec(splitString[i])[1] +'/dashboard  ,  ';
+   }
+   } else{
+      'https://app.nextcenturymeters.com/p/' +
+      /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] +
+      '/dashboard'
+   }
+   } else {
+   'No Property Entered'
 }
 ~~~
 so obviously the array hates me
