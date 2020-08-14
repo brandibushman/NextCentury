@@ -83,7 +83,7 @@ Ultimately I did a few things. The first loop is to see if there is information 
    if (lngth >1){
       for (i = 0; i < lngth; i++) {
          url += 'https://app.nextcenturymeters.com/p/' + /\(\D*(\d*)\D*\)/.exec(splitString[i])[1] +'/dashboard  ,  ';
-   }
+      }
    } else{
       'https://app.nextcenturymeters.com/p/' +
       /\(\D*(\d*)\D*\)/.exec($'Property (ID: #)')[1] +
