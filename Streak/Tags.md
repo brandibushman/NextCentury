@@ -33,3 +33,13 @@ Information - confirm information,
 ## Kiril's Imput
 
 I typically put transfers under Requests > Web Portal > Transfer Request. I think that Request currently can represent 2 main interactions. 1) where customers simply want us to do something for them that they could do (programming, property edits, add users, etc) 2) where customers request something that only we can do (property transfer, delete devices programmed to other billing companies, etc) I think that these 2 could be split into their own categories because the outcome is different for both. 1) make tools and training more accessible. 2) automate the process and make it easier for users to make these types of requests. However, of the requests that only we can do, property transfers is the vast majority, so I think that it could go either way.
+
+## Columns - 
+Resolved Status is important incase people stop responding but I think it should be changed to a check box, but Final Contact Attempts and Prority are not being used. 
+
+WE HAVE TWO DATE CREATE COLUMNS
+I think we need to track if we are getting this favor asked because the system is too slow or not. But it is pushing the app - do you have it? Then finding out why they're not using it. 
+
+Thinking of equipment type as "what did the support thing effect" except in obvious places. There are times that this would be empty. If there was a transfer you would leave it blank. This is where the resolver matters- are they leaving things blank out of negligence or out on purpose. Resolvers need to fill out their field because we need to keep track of who is consistent and reliable and who isn't. There will be mistakes made but the point is that the data is mostly reliable. I will be check literally every box at first and then will transition into actually making larger conclusions. Data from 2020 will be updated. Other data will be modified to be sure that information isn't lost. Columns that will be deleted will be complied and re-uploaded 
+
+Also the naming convention matters... like why can't people just do their job?!!!?!?!!
