@@ -15,13 +15,21 @@ I also think we should add a column that would be a check box for suspected bugs
 - Favor it was something the client should be capable of doing. So if the app was slow, the website isn't loading, they want us to upload the CSV file, or whatever it is still considered a favor because there should be capable of doing it. A key important thing is that it is something they can do AND have known at one point how to do it. So telling someone what the Gateway status is, is a favor. They key here is that they should be doing it because there are capable and have the permissions. 
 - Request is something that the person is unable to do and need US (not the billing company) to do. So backdating, resetting passwords, transfers, deleting devices programmed to other properties etc. 
 - Training is us walking someone through multiple steps or answering a lot of quesitons. Even if you do something like program a repeater, if it is a very informative situation it is a training. I think the key here is that the person is a newer client or just has completely forgotten how to do something. 
-- Information is breif questions. 
+- Information is breif questions.  
 - Internal - ???
 # Scenarios
 
 ## Current Tags
+If we explanded the euqipment to be WP-Programming (csv upload, )  (Web portal) 
 
+Conflicitng if it should be type-tag- equipment it would be better whenever we are dealing with programming. Maybe programming could be an issue type? 
+information-
 
+Maybe the only time that wouldn't be helpful is if there was an RMA? As it is though like often webportal or app are the main issue and you program... a transceiver. so it doesn't make sense to go the other way. Transfers don't need to specify it is on the web portal WE KNOW if it is a transfer that it will go through on the webportal. 
+
+SO I guess we need types and then to decide the list of services offered there. 
+Favors - program, transfer, 
+Information - confirm information, 
 ## Kiril's Imput
 
 I typically put transfers under Requests > Web Portal > Transfer Request. I think that Request currently can represent 2 main interactions. 1) where customers simply want us to do something for them that they could do (programming, property edits, add users, etc) 2) where customers request something that only we can do (property transfer, delete devices programmed to other billing companies, etc) I think that these 2 could be split into their own categories because the outcome is different for both. 1) make tools and training more accessible. 2) automate the process and make it easier for users to make these types of requests. However, of the requests that only we can do, property transfers is the vast majority, so I think that it could go either way.
