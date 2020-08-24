@@ -15,3 +15,5 @@ The way that the product is built is accessable through the API. Pretty much all
 Kirill Thoughts - 
 NextCentury API to update information in the contacts
 [API Stuff](streak.readme.io)
+
+Import out of googlesheets. but it won't create a contact list - that's fine. 
