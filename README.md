@@ -2,4 +2,4 @@
 
 - [Streak Optimization](https://github.com/brandibushman/NextCentury-again/tree/master/Streak)
 
-- [Analytics](https://github.com/brandibushman/NextCentury/blob/master/Analytics.md)
+- [Analytics](https://github.com/brandibushman/NextCentury/tree/master/Analytics)
