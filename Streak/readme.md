@@ -1,7 +1,7 @@
 ## Goals
 - Have the "issue, information" make available the sub-categories 
 - [Auto link by property code](https://github.com/brandibushman/NextCentury-again/blob/master/Streak/By%20Property%20Thread.md) with the same property code. Similar to the by person thing. 
-- [Multiple Property Link](https://github.com/brandibushman/NextCentury-again/blob/master/Streak/Multiple%20Properties.md)
+- Multiple Property Link
 - Standardize and go through duplicates: hover over description (?) or Wiki cheat sheet. FLow chart or explanation. "Icom - Internal Communication" so we have hyphenate, "Ecom - Electronic Communication"
 - Date Reported
 - More integration between streak and our website. Streak has an API
@@ -25,3 +25,7 @@
 ## Issues 
 - Changing the tags effects the things. Support type tag would be the easiest. What do the 5 tags mean.
 
+# Versions and their achievments 
+### Version 2.0.0 : 
+- [Multiple Property Link](https://github.com/brandibushman/NextCentury-again/blob/master/Streak/Multiple%20Properties.md) which can be entered as ``` Property Name (ID:#) ,, Property2 (ID:#)```
+-
