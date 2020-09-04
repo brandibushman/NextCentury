@@ -37,3 +37,4 @@ We will put it under request.
 Things Mikes asks about 
 - who is calling us and what are they asking us about. 
 
+Letting people know on Monday what the goals are and then Friday. 
