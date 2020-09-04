@@ -24,3 +24,16 @@
 - New Support Types
 - Flow Chart
 - Eliminated unused columns
+
+# Notes
+Rachel's thoughts
+WRT Missed Calls - where we're tracking statistics on the RingCentral side it is more like the times that it was missed and voicemails information relevance. Is it showing that maybe it was really busy that day, they were calling back, is this a person who calls a lot. 
+
+Examine the experience of the meeting we had and how to sell it in order to get the most accurate information. 
+
+In the past internal has been used exclusively for us. 
+We will put it under request. 
+
+Things Mikes asks about 
+- who is calling us and what are they asking us about. 
+
