@@ -18,12 +18,13 @@
 - Changing the tags effects the things. Support type tag would be the easiest. What do the 5 tags mean.
 
 # Versions and their achievments 
-### Version 2.1.0
+### Version 2.1.0 :
 ### Version 2.0.0 : 
 - Links for multiple properties, 
 - New Support Types
 - Flow Chart
 - Eliminated unused columns
+- So there might be a backdoor for the tokens
 
 # Notes
 Rachel's thoughts
