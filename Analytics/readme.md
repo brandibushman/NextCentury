@@ -2,6 +2,7 @@
 
 ### Support Goals
 - Reponse time
+- Snap shot for after we have a new client 
 - Things that are in stages for more than 7 days (5 working days)
 - See where natural groupings are 
 - **  Next Step Is coming up with a more efficient way of creating the charts and stuff**
