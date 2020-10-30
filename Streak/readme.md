@@ -1,4 +1,5 @@
 ## Current Goals
+- Create a tracking code to generate a link to the tracking numbers for UPS, USPS, and FedEx.
 - Integrat API to auto populate information for properties 
 - Have the "issue, information" make available the sub-categories 
 - [Auto link by property code](https://github.com/brandibushman/NextCentury-again/blob/master/Streak/By%20Property%20Thread.md) with the same property code. Similar to the by person thing. 
