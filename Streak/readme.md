@@ -1,3 +1,20 @@
+## Things that I did
+The first thing I had to do was learn about the existing system. I quickly discovered that the existing system wasn't documented and wasn't observed by majority of the team. So I had to learn what the team was doing. That was the first part.
+
+Then I had to combine what people were doing, document it, propose a standard practice, present and agree upon it. Then I had to look through every box created for several weeks and work to get everyone on the same page. 
+
+Once we were all working on the "old system" I had to find ways to improve it. 
+- improved the links so that we could link multiple properites to one box
+- created definitions and a process for which data points belong in which sections and why
+- Got rid of some data points which were not being used
+- renamed almost all of the data points
+- teach my team
+- work with my team to discover the best ways to do this
+- Create Documentation
+- Create a data entry process
+- Clean up existing data
+
+
 ## Current Goals
 - Create a tracking code to generate a link to the tracking numbers for UPS, USPS, and FedEx.
 - Integrat API to auto populate information for properties 
