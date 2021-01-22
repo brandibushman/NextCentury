@@ -13,7 +13,8 @@ Once we were all working on the "old system" I had to find ways to improve it.
 - Create Documentation
 - Create a data entry process
 - Clean up existing data
-
+- Work with the testing team to find better ways to document bugs
+- work with software team to present evidence that lead to the opimitzation of the app
 
 ## Current Goals
 - Create a tracking code to generate a link to the tracking numbers for UPS, USPS, and FedEx.
