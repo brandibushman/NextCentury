@@ -1,7 +1,9 @@
 # Goals
 ## Wiki 1.0 
 [Wiki 1.0 Page (accessible only to NextCentury Employees) ](https://wiki.nextcenturymeters.com/books/support-stuff/page/stats-hub#bkmrk-index-0)
+
 [Wiki 1.0 written in primarily html](https://github.com/brandibushman/NextCentury/blob/master/Analytics/Wiki%201%20pt%200%20.md)
+
 - Statistics in an accessible place so that they are available to support and the company at any time. 
   - Stats which are relevent to the support team and the company. Answering the questions who is calling? Why are they calling? 
   - Also answering the question if they need to be calling or not. We want to know if we are being helpful or educational to assess if we need more helpful tools or if we need to make onboarding/training/support site changes. 
