@@ -15,6 +15,9 @@ Once we were all working on the "old system" I had to find ways to improve it.
 - Clean up existing data
 - Work with the testing team to find better ways to document bugs
 - work with software team to present evidence that lead to the opimitzation of the app
+- Cleaned up "[Data Clean Up - Tags](https://github.com/brandibushman/NextCentury/blob/master/Streak/Version%202.0.0/Tags.md)" options so that there was a finite set of well defined options. 
+  - Alternative to N/A
+  - create a more concrete list of choices - data clean up
 
 ## Current Goals
 - Create a tracking code to generate a link to the tracking numbers for UPS, USPS, and FedEx.
@@ -23,18 +26,12 @@ Once we were all working on the "old system" I had to find ways to improve it.
 - [Auto link by property code](https://github.com/brandibushman/NextCentury-again/blob/master/Streak/By%20Property%20Thread.md) with the same property code. Similar to the by person thing. 
 - Date Reported/Response Time
 - More integration between streak and our website. Streak has an API
-- [Data Clean Up - Tags](https://github.com/brandibushman/NextCentury/blob/master/Streak/Version%202.0.0/Tags.md)
-  - Alternative to N/A
-  - create a more concrete list of choices - data clean up
 - Standardize the phone number and contact information entering system like either it is all at once, or there are "."/"-" separators. 
 
 ## Current Questions
 - Does the Java integration support HTML if you call it? 
-- Is there a way to have drop down cells that are based on the previous cell's input?
--  Can we reference the unique ID
-
-## Current Issues 
-- Changing the tags effects the things. Support type tag would be the easiest. What do the 5 tags mean.
+- Is there a way to have drop down cells that are based on the previous cell's input? Possibly using Zapier?
+-  Can we reference the unique ID in some useful way. 
 
 # Versions and their achievments 
 ### Version 2.1.0 :
@@ -49,12 +46,3 @@ Once we were all working on the "old system" I had to find ways to improve it.
 Rachel's thoughts
 WRT Missed Calls - where we're tracking statistics on the RingCentral side it is more like the times that it was missed and voicemails information relevance. Is it showing that maybe it was really busy that day, they were calling back, is this a person who calls a lot. 
 
-Examine the experience of the meeting we had and how to sell it in order to get the most accurate information. 
-
-In the past internal has been used exclusively for us. 
-We will put it under request. 
-
-Things Mikes asks about 
-- who is calling us and what are they asking us about. 
-
-Letting people know on Monday what the goals are and then Friday. 
