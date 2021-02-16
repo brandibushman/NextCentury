@@ -18,8 +18,8 @@ Once we were all working on the "old system" I had to find ways to improve it.
 - Cleaned up "[Data Clean Up - Tags](https://github.com/brandibushman/NextCentury/blob/master/Streak/Version%202.0.0/Tags.md)" options so that there was a finite set of well defined options. 
   - Alternative to N/A
   - create a more concrete list of choices - data clean up
-- Created process [documentation](https://github.com/brandibushman/NextCentury/blob/master/Streak/Filling%20Out%20the%20Box%20_%20NextCentury%20Wiki.pdf) using HTLM and Markdown [(Actualy Code)](https://github.com/brandibushman/NextCentury/blob/master/Streak/html%20code%20for%20wiki%20articles.md).
-- Created a [review process](https://github.com/brandibushman/NextCentury/blob/master/Streak/Reviewing%20Boxes%20_%20NextCentury%20Wiki.pdf) for customer interactions for quality contorl using HTML and Markdown [(Actualy Code)](https://github.com/brandibushman/NextCentury/blob/master/Streak/html%20code%20for%20wiki%20articles.md). 
+- Created process [documentation](https://github.com/brandibushman/NextCentury/blob/master/Streak/Filling%20Out%20the%20Box%20_%20NextCentury%20Wiki.pdf) using HTLM and Markdown [(Actual Code)](https://github.com/brandibushman/NextCentury/blob/master/Streak/html%20code%20for%20wiki%20articles.md).
+- Created a [review process](https://github.com/brandibushman/NextCentury/blob/master/Streak/Reviewing%20Boxes%20_%20NextCentury%20Wiki.pdf) for customer interactions for quality contorl using HTML and Markdown [(Actual Code)](https://github.com/brandibushman/NextCentury/blob/master/Streak/html%20code%20for%20wiki%20articles.md). 
 
 ## Current Goals
 - Create a tracking code to generate a link to the tracking numbers for UPS, USPS, and FedEx.
