@@ -1,13 +1,19 @@
 # Goals
-- H Version 2.0.0 : 
 - [Multiple Property Link](https://github.com/brandibushman/NextCentury/blob/master/Streak/Version%202.0.0/Multiple%20Properties.md) which can be entered as ``` Property Name (ID:#) ,, Property2 (ID:#)``` **Done**
-- Have the "issue, information" make available the sub-categories **Pushed to Later Project- look into API*
-- [Auto link by property code](https://github.com/brandibushman/NextCentury-again/blob/master/Streak/By%20Property%20Thread.md) with the same property code. Similar to the by person thing. **This could only be done by making each property a contact**
-- Standardize and go through duplicates: hover over description (?) or Wiki cheat sheet. FLow chart or explanation. "Icom - Internal Communication" so we have hyphenate, "Ecom - Electronic Communication" **Done**
+- Standardize and go through duplicate Tags and Consolidate **Done**
 - [Adjust Tags](https://github.com/brandibushman/NextCentury/blob/master/Streak/Version%202.0.0/Tags.md)
   - Alternative to N/A **Alternative to N/A for properties was created**
   - how does it handle multiple tags THERE ARE OVER 11,000 boxes
-  - Standardize and go through duplicates: hover over description (?) or Wiki cheat sheet. FLow chart or explanation. "Icom - Internal Communication" so we have hyphenate, "Ecom - Electronic Communication"
+  
+  
+# Accomplishments
+- [Multiple Property Link](https://github.com/brandibushman/NextCentury/blob/master/Streak/Version%202.0.0/Multiple%20Properties.md) which can be entered as ``` Property Name (ID:#) ,, Property2 (ID:#)``` **Done**
+- Standardize and go through duplicate Tags and Consolidate **Done**
+- [Adjust Tags](https://github.com/brandibushman/NextCentury/blob/master/Streak/Version%202.0.0/Tags.md)
+  - Alternative to N/A **Alternative to N/A for properties was created**
+  - How does it handle multiple tags THERE ARE OVER 11,000 boxes
+- Created a Quality Control Process which incorporates data validation as well as customer interaction quality control.
+- Train department on data entry and note taking. 
 
 ### Relavent Information for accomplishing this task
 [Java Basics](https://github.com/brandibushman/NextCentury-again/blob/master/Java%20Basics)
