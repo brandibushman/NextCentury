@@ -18,6 +18,8 @@ Once we were all working on the "old system" I had to find ways to improve it.
 - Cleaned up "[Data Clean Up - Tags](https://github.com/brandibushman/NextCentury/blob/master/Streak/Version%202.0.0/Tags.md)" options so that there was a finite set of well defined options. 
   - Alternative to N/A
   - create a more concrete list of choices - data clean up
+- Created process documentation.
+- Created a review process for customer interactions for quality contorl. 
 
 ## Current Goals
 - Create a tracking code to generate a link to the tracking numbers for UPS, USPS, and FedEx.
