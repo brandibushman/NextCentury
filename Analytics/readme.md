@@ -1,4 +1,37 @@
 # Goals
+
+## Goals (below might be deletable)
+Welcome to the monthly Stats. We aim to answer the following questions.
+
+
+
+Customer Experience
+1. Who is getting help? (Is that different than who may need it?)
+2. What do they need help with?
+3. What are things we need to improve and where (training materials, support articles, app updates)?
+4.  Is everything working the way it is intending?
+5. Should we change the was things are working?
+
+Internally
+
+1. Who is doing the work?
+2. What are they doing?
+3. Do they need to do something different?
+4. Do they need help?
+5. What can we improve upon as a team?
+6. What resources should we adjust, add, or take away to improve the customer experience.  
+
+
+We have two main sources for data. We have the Streak Stats and the Ring Central Stats. Streak stats are subject to user error but contain more information about the customer experience. 
+
+
+
+Call Questions
+
+1. Who is answering calls?
+2. When are calls coming in the most?
+3. When are calls getting missed the most?
+
 ## Wiki 1.0 
 [Wiki 1.0 Page (accessible only to NextCentury Employees) ](https://wiki.nextcenturymeters.com/books/support-stuff/page/stats-hub#bkmrk-index-0)
 
