@@ -1,4 +1,14 @@
 # Goals
+# Status Hub 2.0 Accomplishments
+- Made colapsible sections with PDFs for old documents [Source](https://stackoverflow.com/questions/31562552/collapsible-header-in-markdown-to-html)
+~~~
+  <details>
+      <summary>Your header here! (Click to expand)</summary>
+      Your content here...</br>
+      (markup only where supported)</br>
+      more content here...</br>
+    </details>
+~~~
 
 ## Goals (below might be deletable)
 Welcome to the monthly Stats. We aim to answer the following questions.
