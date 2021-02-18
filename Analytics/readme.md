@@ -20,6 +20,7 @@ Internally
 4. Do they need help?
 5. What can we improve upon as a team?
 6. What resources should we adjust, add, or take away to improve the customer experience.  
+7. How many calls do we have at a time?
 
 
 We have two main sources for data. We have the Streak Stats and the Ring Central Stats. Streak stats are subject to user error but contain more information about the customer experience. 
