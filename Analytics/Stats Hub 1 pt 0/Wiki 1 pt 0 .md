@@ -1,4 +1,4 @@
-### Actual Code
+### HTML used
 ~~~
 <h2><a id="top" style="color:black"> Index </a></h2>
 
