@@ -8,7 +8,9 @@ I helped clean up all data that Customer Support touched and made it useable and
 
 - [Analytics](https://github.com/brandibushman/NextCentury/tree/master/Analytics)
 
-## Tool I used were
+## Tool / Languarges used were
 - Zoho Analytics
 - Streak
 - Javascript 
+- HTML
+- Markdown 
