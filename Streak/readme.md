@@ -37,6 +37,10 @@ Once we were all working on the "old system" I had to find ways to improve it.
 
 # Versions and their achievments 
 ### Version 2.1.0 :
+Goals
+- Incorporate API to auto generate Property Name, Billing Company, Gateway ID number, Gateway cellular information, and type of Gateway.
+- Make the links so that they show a name instead of a full URL
+
 ### [Version 2.0.0](https://github.com/brandibushman/NextCentury/tree/master/Streak/Version%202.0.0P) : 
 - Links for multiple properties, 
 - New Support Types
